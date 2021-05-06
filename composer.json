@@ -1,0 +1,34 @@
+{
+  "name": "jinyicheng/thinkphp_cop",
+  "description": "COSCOShipping COP Api SDK For Thinkphp",
+  "type": "library",
+  "keywords": [
+    "COP",
+    "SDK",
+    "Thinkphp6"
+  ],
+  "homepage": "https://github.com/jinyicheng/thinkphp_cop/",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.2",
+    "ext-openssl": "*"
+  },
+  "authors": [
+    {
+      "name": "jinyicheng",
+      "email": "234067496@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "jinyicheng\\thinkphp_cop\\": "src/"
+    }
+  },
+  "extra": {
+    "think": {
+      "config": {
+        "cop": "config/cop.php"
+      }
+    }
+  }
+}

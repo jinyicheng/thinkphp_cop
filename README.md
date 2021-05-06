@@ -1,2 +1,2 @@
-# thinkphp_cop
+# cop
 COSCOShipping COP Api SDK For Thinkphp
